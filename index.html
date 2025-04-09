@@ -2,43 +2,72 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ClonexAI User Agreement</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
   <style>
+    :root {
+      --bg-color: #ffffff;
+      --text-color: #1a1a1a;
+      --heading-color: #111111;
+      --accent-color: #7b61ff;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      max-width: 800px;
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      padding: 3rem 1.5rem;
+      max-width: 860px;
       margin: 0 auto;
-      padding: 2rem;
-      line-height: 1.6;
-      background-color: #f9f9f9;
-      color: #333;
+      line-height: 1.7;
     }
-    h1, h2 {
-      color: #1a1a1a;
-    }
+
     h1 {
-      font-size: 2rem;
+      font-size: 2.5rem;
       text-align: center;
-      margin-bottom: 2rem;
+      margin-bottom: 2.5rem;
+      color: var(--heading-color);
+      font-weight: 600;
     }
+
     h2 {
-      margin-top: 2rem;
       font-size: 1.4rem;
+      margin-top: 2.5rem;
+      margin-bottom: 0.75rem;
+      color: var(--heading-color);
+      font-weight: 500;
     }
-    p {
+
+    p, li {
+      font-size: 1rem;
       margin-bottom: 1rem;
     }
+
     ul {
       padding-left: 1.5rem;
     }
-    li {
-      margin-bottom: 0.5rem;
+
+    a {
+      color: var(--accent-color);
+      text-decoration: none;
     }
+
     footer {
-      margin-top: 3rem;
-      font-style: italic;
+      margin-top: 4rem;
       text-align: center;
+      font-size: 0.95rem;
+      color: #555;
+      font-style: italic;
     }
   </style>
 </head>
